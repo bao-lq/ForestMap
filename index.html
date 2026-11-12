@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForestMap - Where Talent Finds Its Forest</title>
+    <link rel="icon" href="assets/imgs/logo-forestMap.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="container nav-container">
+            <a href="#" class="logo">Forest<span>MAP</span></a>
+
+            <button class="navbar-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <div class="navbar-btn">
+                <a href="pages/login.html" class="btn btn-outline">Login</a>
+                <a href="pages/job-post.html" class="btn btn-primary">Post Job</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container hero-container">
+        <h1>Find your dream jobs</h1>
+        <p>--- From Seed to Success ---</p>
+
+        <form class="search-form">
+            <div class="input-form">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Position, Company,..." name="searchBar">
+            </div>
+
+            <div class="input-group">
+                <div class="selected-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Locations</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="location-dropdown">
+                    <label>
+                        <input type="checkbox" value="TP HCM">
+                        TP HCM
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Ha Noi">
+                        Ha Noi
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Da Nang">
+                        Da Nang
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Hai Phong">
+                        Hai Phong
+                    </label>
+                </div>
+            </div>
+
+            <div class="click-btn">
+                <i class="fa-solid fa-computer-mouse"></i>
+                <button type="submit" class="btn-search">Explore</button>
+            </div>
+        </form>
+
+        <h3>Grow your career with 10,000+ jobs, 500+ companies, and 50,000+ candidates.</h3>
+    </section>
+
+    <main class="container main-content">
+        <!-- Featured Jobs -->
+        <section class="container job-container">
+            <div class="section-title">
+                <i class="fa-solid fa-fire"></i>
+                <h1>Hot jobs</h1>
+            </div>
+
+            <div class="grid">
+                <a href="#" class="job-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-techology.png" alt="Company 1" class="company-logo">
+                            <div class="title">
+                                <h3>Fresher full stack ReactJs</h3>
+                                <p>TechVN technology company</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="footer-item">1350$ - 1500$</span>
+                            <span class="footer-item">Ho Chi Minh City</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="job-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-techCompany.png" alt="Company 2" class="company-logo">
+                            <div class="title">
+                                <h3>UI/UX Designer</h3>
+                                <p>Global Studio Inc</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">1000$ - 1250$</div>
+                            <span class="footer-item">Nationwide (Remote)</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="job-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-realEstate.png" alt="Company 3" class="company-logo">
+                            <div class="title">
+                                <h3>Markerting specialist</h3>
+                                <p>Vina Real Estate Group</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">Negotiable salary</div>
+                            <span class="footer-item">Ha Noi</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="job-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-constructionGroup.png" alt="Company 4" class="company-logo">
+                            <div class="title">
+                                <h3>Site Engineer</h3>
+                                <p>SG Construction Group</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">900$ - 1400$</div>
+                            <span class="footer-item">Da Nang</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="job-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-hospital.png" alt="Company 5" class="company-logo">
+                            <div class="title">
+                                <h3>Registered Nurse</h3>
+                                <p>City International Hospital</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">700$ - 1200$</div>
+                            <span class="footer-item">Hue City</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="job-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-manufacturing.png" alt="Company 6" class="company-logo">
+                            <div class="title">
+                                <h3>General Accountant</h3>
+                                <p>ABC Manufacturing Co., Ltd</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">Negotiable salary</div>
+                            <span class="footer-item">Ho Chi Minh</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Featured Companies -->
+        <section class="container cpn-container">
+            <div class="section-title">
+                <i class="fa-solid fa-fire"></i>
+                <h1>Hot company</h1>
+            </div>
+
+            <div class="grid">
+                <a href="#" class="cpn-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-techology.png" alt="Company 1" class="company-logo">
+                            <div class="title">
+                                <h3>TechVN technology company</h3>
+                                <p>Information Technology</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>+3 jobs</span>
+                            </div>
+                            <span class="footer-item">Ho Chi Minh, Ha Noi</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="cpn-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-techCompany.png" alt="Company 2" class="company-logo">
+                            <div class="title">
+                                <h3>Global Studio Inc</h3>
+                                <p>Information Technology</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>+2 jobs</span>
+                            </div>
+                            <span class="footer-item">Nationwide</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="cpn-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-realEstate.png" alt="Company 3" class="company-logo">
+                            <div class="title">
+                                <h3>Vina Real Estate Group</h3>
+                                <p>Real Estate</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>+5 Jobs..</span>
+                            </div>
+                            <span class="footer-item">Ho Chi Minh, Ha Noi</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="cpn-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-constructionGroup.png" alt="Company 4" class="company-logo">
+                            <div class="title">
+                                <h3>SG Construction Group</h3>
+                                <p>Construction</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>+4 jobs</span>
+                            </div>
+                            <span class="footer-item">Da Nang</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="cpn-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-hospital.png" alt="Company 5" class="company-logo">
+                            <div class="title">
+                                <h3>City International Hospital</h3>
+                                <p>Healthcare</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>+6 jobs..</span>
+                            </div>
+                            <span class="footer-item">Hue, Ho Chi Minh</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="cpn-detail">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <img src="assets/imgs/logo-manufacturing.png" alt="Company 6" class="company-logo">
+                            <div class="title">
+                                <h3>ABC Manufacturing Co., Ltd</h3>
+                                <p>Engineer</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-item">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>+5 jobs..</span>
+                            </div>
+                            <span class="footer-item">Ho Chi Minh, Ha Noi,...</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="container static">
+            <h2>Thị trường việc làm hôm nay</h2>
+
+            <div class="market-content">
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <h3>2.130</h3>
+                        <p>Việc làm mới 24h gần nhất</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>42.005</h3>
+                        <p>Việc làm đang tuyển</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>14.995</h3>
+                        <p>Công ty đang tuyển</p>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-card">
+                        <div class="chart-card">
+                            <canvas id="jobGrowth"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-card">
+                            <canvas id="jobDemand"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2>ForestMap</h2>
+                <p>
+                    Find the best opportunities and connect with top employers
+                    worldwide.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Companies</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Information Technology</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Healthcare</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><i class="fa-solid fa-phone"></i> +84 123 456 789</p>
+                <p><i class="fa-solid fa-envelope"></i> contact@jobhub.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Ho Chi Minh City</p>
+            </div>
+        </div>
+
+        <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 ForestMap. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
